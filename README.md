@@ -1,4 +1,5 @@
 # Sentinel-LoL: ML-Based "Living off the Land" Detection Engine
+![Detection Graph](detection_graph.png)
 
 1. Project Overview
 **Sentinel-LoL** is a behavioral security tool designed to detect **Living off the Land (LotL)** attacks—a technique where attackers use legitimate system tools (like PowerShell, Certutil, or WMI) to perform malicious actions. 
