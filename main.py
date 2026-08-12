@@ -10,9 +10,9 @@ class LogPayload(BaseModel):
 def health_check():
     return {"status": "Sentinel-LotL Engine Online", "model": "Isolation Forest"}
 
+# Must be @app.post, NOT @app.get, and path must match "/predict" exactly
 @app.post("/predict")
 def predict(payload: LogPayload):
-    # Runs your Shannon entropy + model evaluation logic here
     return {
         "input_log": payload.log_event,
         "is_anomaly": True,
