@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Render API Base URL (NO trailing slash)
-API_URL = "https://sentinel-lotl-api.onrender.com"
+API_URL = "https://sentinel-lol.onrender.com"
 
 st.title("🛡️ Sentinel-LotL Threat Detection Engine")
 st.caption("AI-Powered Living-off-the-Land Fileless Malware Analyzer")
