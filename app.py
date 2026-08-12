@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Replace this with your actual Render API base URL
-API_URL = "https://YOUR-RENDER-APP-NAME.onrender.com"
+API_URL = "https://sentinel-lotl-api.onrender.com"
 
 # Custom CSS for dark cybersecurity theme
 st.markdown("""
